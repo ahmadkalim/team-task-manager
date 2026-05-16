@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Team Task Manager
 
-## Getting Started
+This project is a full-stack web application designed for team collaboration and task management. It is built using Next.js, Prisma, and NextAuth, featuring a role-based access control system and a custom Apple Liquid Glass design.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- User Authentication
+- Role-based Access Control
+- Project Management
+- Task Assignment and Tracking
+- Custom User Interface
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup Instructions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository to your local machine.
+2. Run npm install to install the required dependencies.
+3. Apply the database schema by running npx prisma db push.
+4. Start the development server using npm run dev.
+5. Access the application in your browser at localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Database Configuration
 
-## Learn More
+The application uses SQLite by default for simplified local setup. The Prisma schema is located in the prisma directory. 
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This application is ready to be deployed on Railway. You can link your GitHub repository to a new Railway project. Ensure that your environment variables are configured correctly in the deployment environment. The provided railway.toml file will handle the build and start commands automatically.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Repository Information
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Author: ahmadkalims
+Contact: ahmadkalim6@gmail.com
